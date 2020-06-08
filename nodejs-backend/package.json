@@ -1,0 +1,20 @@
+{
+  "name": "zcoin-dice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoin-rpc-zcoin": "*",
+    "mongoose": "^5.9.15",
+    "socket.io": "^2.3.0",
+    "zcore-lib": "^0.15.99"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
